@@ -30,6 +30,6 @@ We provide recon demo to demonstrate how MoCo-INR works.
 - `demo_VISTA_recon.ipynb` shows the reconstruction workflow of VISTA sampling pattern
 
 Work in progress — updates coming soon…
-- `demo_GA_recon.ipynb` shows the reconstruction workflow of Gold-Angle Radial sampling pattern
+- `demo_GA_recon.ipynb` shows the reconstruction workflow of Golden-Angle Radial sampling pattern
 - `demo_FB_recon.ipynb` shows the reconstruction workflow of free-breathing scans
 
