@@ -1,6 +1,5 @@
 ### MoCo-INR
 
----
 
 This is the official code repository of our work "Unsupervised Motion-Compensated Decomposition for Cardiac MRI
 Reconstruction via Neural Representation"
@@ -27,8 +26,10 @@ Reconstruction via Neural Representation"
 
 ### Run Recon Demos
 
-We provide three recon demo to demonstrate how MoCo-INR works. 
+We provide recon demo to demonstrate how MoCo-INR works. 
 - `demo_VISTA_recon.ipynb` shows the reconstruction workflow of VISTA sampling pattern
+
+Work in progress — updates coming soon…
 - `demo_GA_recon.ipynb` shows the reconstruction workflow of Gold-Angle Radial sampling pattern
 - `demo_FB_recon.ipynb` shows the reconstruction workflow of free-breathing scans
 
