@@ -1,8 +1,8 @@
 ### MoCo-INR
 
 
-This is the official code repository of our work "Unsupervised Motion-Compensated Decomposition for Cardiac MRI
-Reconstruction via Neural Representation"
+This is the official code repository of our work "**Unsupervised Motion-Compensated Decomposition for Cardiac MRI
+Reconstruction via Neural Representation**" accepcted by AAAI 2026.  
 
 ---
 
