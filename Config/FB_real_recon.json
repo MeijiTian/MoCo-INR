@@ -1,0 +1,47 @@
+{
+    "data": {
+        "data_path": "Data/FB_real/"
+    },
+    "train": {
+        "gpu": 0,
+        "epoch": 1500,
+        "lr": 0.001,
+        "loss_fn": "l1",
+        "train_frame": 10,
+        "C2F": true,
+        "C2F_config": {
+            "stage_1": 400,
+            "stage_2": 800
+        },
+        "lamda": 1.0,
+        "kscale": 1000
+    },
+    "evaluation": {
+        "flag": true,
+        "save_path": "FB_real/",
+        "summary_epoch": 150,
+        "eval_frame": 30
+    },
+    "net": {
+        "dvf_net_enc": {
+            "otype": "Grid",
+            "type": "Hash",
+            "n_levels": 8,
+            "n_features_per_level": 4,
+            "log2_hashmap_size": 21,
+            "base_resolution": 2,
+            "per_level_scale": 2,
+            "interpolation": "Linear"
+        },
+        "cano_net_enc": {
+            "otype": "Grid",
+            "type": "Hash",
+            "n_levels": 12,
+            "n_features_per_level": 8,
+            "log2_hashmap_size": 21,
+            "base_resolution": 2,
+            "per_level_scale": 2,
+            "interpolation": "Linear"
+        }
+    }
+}

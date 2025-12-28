@@ -8,7 +8,7 @@
         "epoch": 1500,
         "lr": 0.001,
         "loss_fn": "l1",
-        "train_frame": 5,
+        "train_frame": 0,
         "C2F": true,
         "C2F_config": {
             "stage_1": 400,
@@ -20,7 +20,7 @@
     "evaluation": {
         "flag": true,
         "save_path": "out_VISTA/LAX/",
-        "summary_epoch": 200,
+        "summary_epoch": 150,
         "eval_frame": 30
     },
     "net": {
