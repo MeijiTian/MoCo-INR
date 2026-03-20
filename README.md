@@ -2,7 +2,7 @@
 
 
 This is the official code repository of our work "**Unsupervised Motion-Compensated Decomposition for Cardiac MRI
-Reconstruction via Neural Representation**" accepcted by AAAI 2026. [[ArXiv]](https://arxiv.org/abs/2511.11436) 
+Reconstruction via Neural Representation**" accepted by AAAI 2026. [[ArXiv]](https://arxiv.org/abs/2511.11436) [[AAAI Processdings]](https://ojs.aaai.org/index.php/AAAI/article/view/37914)
 
 ---
 
@@ -63,10 +63,15 @@ MoCo-INR/
 ### Citation
 
 ```
-@article{tian2025unsupervised,
-  title={Unsupervised Motion-Compensated Decomposition for Cardiac MRI Reconstruction via Neural Representation},
-  author={Tian, Xuanyu and Chen, Lixuan and Wu, Qing and Wang, Xiao and Feng, Jie and Zhang, Yuyao and Wei, Hongjiang},
-  journal={arXiv preprint arXiv:2511.11436},
-  year={2025}
-}
+@article{Tian_Chen_Wu_Wang_Feng_Zhang_Wei_2026,
+title={Unsupervised Motion-Compensated Decomposition for Cardiac MRI Reconstruction via Neural Representation},
+url={https://ojs.aaai.org/index.php/AAAI/article/view/37914},
+DOI={10.1609/aaai.v40i11.37914},
+volume={40},
+number={11},
+journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+author={Tian, Xuanyu and Chen, Lixuan and Wu, Qing and Wang, Xiao and Feng, Jie and Zhang, Yuyao and Wei, Hongjiang},
+year={2026},
+month={Mar.},
+pages={9529-9537} }
 ```
