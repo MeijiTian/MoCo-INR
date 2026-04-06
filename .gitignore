@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+
+out_GA/
+out_VISTA/
+FB_real/
