@@ -7,9 +7,8 @@ import SimpleITK as sitk
 from scipy import io
 from tqdm import tqdm
 
-from utils import fftnc, ifftnc, cal_metrics
 from src.loss import L1Loss, DVFRegLoss
-from src.utils import save_nii, plot_dvf_frames
+from src.utils import *
 from src.model import MoCoINR
 
 

@@ -8,9 +8,9 @@ from scipy import io
 from tqdm import tqdm
 import os
 
-from utils import fftnc, ifftnc, cal_metrics
+
 from src.loss import L1Loss, DVFRegLoss
-from src.utils import save_nii, plot_dvf_frames
+from src.utils import *
 from src.model import MoCoINR
 
 
@@ -78,7 +78,7 @@ def choose_frame_batch(
 # -----------------------------------------------------------------------------
 def main() -> None:
     # -------------------- config --------------------
-    config_path = Path("Config/real_recon.json")
+    config_path = Path("Config/FB_real_recon.json")
     with open(config_path, "r") as f:
         config = json.load(f)
 
